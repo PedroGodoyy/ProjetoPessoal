@@ -3,24 +3,40 @@ body{
 }
 
 .nav{
+    position: fixed;
+    border-radius: 10px;
     background-color: #000;
-    padding: 1.2rem;
+    padding: 1.5rem;
+    width: 100%;
 }
 
-.letra-cor{
+.letra{
     color: #fff;  
 }
 
-.letra-cor:hover{
+.letra:hover{
     color: #fff;
     transition: 0.5s;
     opacity: 0.5;
 }
 
 .principal{
+    display: flex;
     align-items: center;
 }
 
-.principal h4{
-    font-size: 1.5rem;
+.sobre{
+    padding: 10rem;
+}
+
+.sobre h4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img{
+    justify-content: left;
+    align-items: left;
+    margin: 3rem;
 }

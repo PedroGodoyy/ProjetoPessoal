@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #000;
+}
+
+.caixa{
+    position: relative;
+    width: 600px;
+    height: 600px;
+    color: #000;
+    background: #dcdcdc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.letra{
+    margin: auto;
+    text-transform: uppercase;
+    font: bold 2em 'Century Gothic';
+}
+
+p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+}
+
+a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+}
