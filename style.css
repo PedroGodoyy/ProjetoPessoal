@@ -1,16 +1,18 @@
 body{
     background-color: #dcdcdc;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .nav{
     position: fixed;
     border-radius: 10px;
     background-color: #000;
-    padding: 1.5rem;
+    padding: 2.5rem 1.5rem 2.5rem 1.5rem;
     width: 100%;
 }
 
 .letra{
+    text-align: center;
     color: #fff;  
 }
 
@@ -23,20 +25,37 @@ body{
 .principal{
     display: flex;
     align-items: center;
+    justify-content: center;
+    font-size: 30px;
 }
 
 .sobre{
-    padding: 10rem;
+    padding: 12rem 5rem 1rem 5rem;
 }
 
 .sobre h4{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 1rem;
+    font-size: 25px;
 }
 
 .img{
     justify-content: left;
     align-items: left;
-    margin: 3rem;
+    margin: 8rem;
+}
+
+.familia{
+    /* padding: 8rem 5rem 1rem 5rem;  */
+    margin: 18rem 5rem 3rem 5rem;
+}
+
+.familia h4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    font-size: 25px;
 }
