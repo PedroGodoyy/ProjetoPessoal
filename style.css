@@ -48,11 +48,41 @@ body{
 }
 
 .familia{
-    /* padding: 8rem 5rem 1rem 5rem;  */
     margin: 18rem 5rem 3rem 5rem;
 }
 
 .familia h4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    font-size: 25px;
+}
+
+.imgf{
+    display: flex;
+}
+
+.img1{
+    margin: 5rem 0 0 10rem;
+}
+
+.img2{
+    margin: 5rem 20rem 15rem 0;
+}
+
+.familiatext{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+}
+
+.hobbies{
+    margin: 18rem 5rem 3rem 5rem;
+}
+
+.hobbies h4{
     display: flex;
     justify-content: center;
     align-items: center;
